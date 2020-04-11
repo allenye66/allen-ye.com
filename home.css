@@ -1,35 +1,39 @@
 
 .profilepic {
-    background-image: url(images/profilepic.png);
+    background-image: url(images/profilepic3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 950px;
     width: 67%;
     margin-top: -800px;
-    margin-bottom: 0px;
+    margin-bottom: -200px;
 
 }
+
 .introTitle {
 	font-family: 'Raleway', sans-serif;
 	position: relative;
-	top: 80px;
+	top: 100px;
     font-weight: 700;
     font-size: 50pt;
     text-transform: uppercase;
     text-align: right;
 }
 .introPara {
+    width:300px;
+    word-wrap: break-word;
     margin: 80px 40px;
     position: relative;
     text-align: right;
-    top:90px;
+    top:70px;
+    left:1050px;
     font-family: 'Raleway', sans-serif;
 }
 .introImages {
 	position: relative;
 
-	bottom: 150px;
+	bottom: 0px;
 	float: right;
     height: 50px;
     margin-right: 10px;
@@ -37,7 +41,7 @@
 #relevantLinks{
 	font-family: 'Raleway', sans-serif;
 	position: relative;
-	bottom: 150px;
+	bottom: -30px;
 	text-align: right;
 	font-size: 30pt;
 

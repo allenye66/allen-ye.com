@@ -6,12 +6,14 @@
     background-size: cover;
     height: 950px;
     width: 67%;
-    margin-top: 0px;
+    margin-top: -800px;
+    margin-bottom: 0px;
+
 }
 .introTitle {
 	font-family: 'Raleway', sans-serif;
 	position: relative;
-	top: 850px;
+	top: 80px;
     font-weight: 700;
     font-size: 50pt;
     text-transform: uppercase;
@@ -21,7 +23,7 @@
     margin: 80px 40px;
     position: relative;
     text-align: right;
-    top:900px;
+    top:90px;
     font-family: 'Raleway', sans-serif;
 }
 .introImages {

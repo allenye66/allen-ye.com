@@ -1,0 +1,42 @@
+
+.profilepic {
+    background-image: url(images/profilepic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    width: 67%;
+    margin-top: 0px;
+}
+.introTitle {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	top: 850px;
+    font-weight: 700;
+    font-size: 50pt;
+    text-transform: uppercase;
+    text-align: right;
+}
+.introPara {
+    margin: 80px 40px;
+    position: relative;
+    text-align: right;
+    top:900px;
+    font-family: 'Raleway', sans-serif;
+}
+.introImages {
+	position: relative;
+
+	bottom: 150px;
+	float: right;
+    height: 50px;
+    margin-right: 10px;
+}
+#relevantLinks{
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	bottom: 150px;
+	text-align: right;
+	font-size: 30pt;
+
+}

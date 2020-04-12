@@ -1,3 +1,12 @@
+.nav{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0px;
+    text-align: right;
+    position: relative;
+    top:100px;
+    /* line-height: 60px; */
+}
+
 
 .profilepic {
     background-image: url(images/profilepic3.png);
@@ -6,28 +15,31 @@
     background-size: cover;
     height: 950px;
     width: 67%;
-    margin-top: -800px;
+    margin-top: -850px;
     margin-bottom: -200px;
+    margin-left: -9px;
 
 }
 
 .introTitle {
 	font-family: 'Raleway', sans-serif;
 	position: relative;
-	top: 100px;
+	top: 0px;
     font-weight: 700;
     font-size: 50pt;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
+    left:980px;
+    width:400px;
 }
 .introPara {
-    width:300px;
+    width:420px;
     word-wrap: break-word;
-    margin: 80px 40px;
+    margin: 80px 50px;
     position: relative;
-    text-align: right;
-    top:70px;
-    left:1050px;
+    text-align: left;
+    top:20px;
+    left: 930px;
     font-family: 'Raleway', sans-serif;
 }
 .introImages {

@@ -3,10 +3,20 @@
     font-weight: 0px;
     text-align: right;
     position: relative;
-    top:100px;
+    top:0px;
     /* line-height: 60px; */
 }
 
+.hr{
+    position: relative;
+
+    bottom: 70px;
+    float: right;
+    height: 75px;
+    width:394px;
+    margin-right: 80px;
+
+}
 
 .profilepic {
     background-image: url(images/profilepic3.png);

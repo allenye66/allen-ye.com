@@ -10,23 +10,23 @@
 
 
 .hr{
-    position: relative;
+    position: absolute;
     bottom: 70px;
-    float: right;
     height: 75px;
-    width:394px;
-    margin-right: 80px;
-
+    width: 450px;
+    margin-bottom:-30px;
+    margin-left: 936px;
 }
 
 .profilepic {
     background-image: url(images/profilepic3.png);
+    position: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 950px;
     width: 67%;
-    margin-top: -850px;
+    margin-top: -800px;
     margin-bottom: -200px;
     margin-left: -9px;
 

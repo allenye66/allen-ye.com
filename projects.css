@@ -1,10 +1,9 @@
 .nav{
     font-family: 'Raleway', sans-serif;
     font-weight: 0px;
-    text-align: right;
     position: relative;
+    text-align: right;
     line-height: 50px;
-    margin-left: 1250px;
 
 }
 #projectsTitle{
@@ -12,12 +11,26 @@
 	position: absolute;
     margin-left: 650px;
     font-size: 60px;
-    margin-top: -20px;
+    margin-top: -60px;
 }
+
+#projectsPara{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    text-align: center;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-bottom: 300px;
+}
+
+
+
 #projectimages{
   	width: 250px;
  	height: 250px;
 }
+
+
 
 .images{
 	position: relative;

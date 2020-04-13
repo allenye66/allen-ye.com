@@ -42,7 +42,7 @@
     text-align: center;
     left:980px;
     width:400px;
-    animation: animation 3s 1;
+    animation: animation 1.5s;
 
 }
 @keyframes animation{

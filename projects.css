@@ -7,3 +7,27 @@
     margin-left: 1250px;
 
 }
+#projectsTitle{
+    font-family: 'Raleway', sans-serif;
+	position: absolute;
+    margin-left: 650px;
+    font-size: 60px;
+    margin-bottom: 3000px;
+}
+#projectimages{
+  	width: 250px;
+ 	height: 250px;
+}
+
+#container {
+  text-align: justify;
+}
+
+/*
+.images{
+	background-color: blue;
+  	display: flex;
+ 	justify-content: space-between;
+  	margin-top: 300px;
+}
+*/

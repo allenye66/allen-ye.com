@@ -2,7 +2,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 0px;
     text-align: right;
-    position: absolute;
+    position: relative;
     line-height: 50px;
     margin-left: 1250px;
 
@@ -12,22 +12,18 @@
 	position: absolute;
     margin-left: 650px;
     font-size: 60px;
-    margin-bottom: 3000px;
+    margin-top: -20px;
 }
 #projectimages{
   	width: 250px;
  	height: 250px;
 }
 
-#container {
-  text-align: justify;
-}
-
-/*
 .images{
-	background-color: blue;
+	position: relative;
+	margin-top: 150px;
   	display: flex;
  	justify-content: space-between;
-  	margin-top: 300px;
+ 	margin-right: 50px;
+ 	margin-left: 50px;
 }
-*/

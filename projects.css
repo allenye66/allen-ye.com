@@ -6,6 +6,7 @@
     position: relative;
     text-align: right;
     line-height: 50px;
+    right: 30px;
 
 }
 #projectsTitle{
@@ -22,15 +23,9 @@
     text-align: center;
     margin-left: 250px;
     font-size: 20px;
-    margin-bottom: 300px;
+    top: 200px;
 }
 
-
-
-#projectimages{
-  width: 250px;
- 	height: 250px;
-}
 
 
 
@@ -42,15 +37,6 @@
  	margin-right: 50px;
  	margin-left: 50px;
 }
-
-
-
-
-
-
-
-
-
 
 .webifyContainer {
   position: relative;
@@ -86,7 +72,7 @@
   width: 100%;
   opacity: 0;
   transition: 0s ease;
-  background-color: #808080;
+  background-color: #202020;
 }
 
 .webifyContainer:hover .overlay {

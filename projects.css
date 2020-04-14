@@ -1,3 +1,5 @@
+
+
 .nav{
     font-family: 'Raleway', sans-serif;
     font-weight: 0px;
@@ -26,7 +28,7 @@
 
 
 #projectimages{
-  	width: 250px;
+  width: 250px;
  	height: 250px;
 }
 
@@ -35,8 +37,79 @@
 .images{
 	position: relative;
 	margin-top: 150px;
-  	display: flex;
+  display: flex;
  	justify-content: space-between;
  	margin-right: 50px;
  	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.webifyContainer {
+  position: relative;
+  width: 20%;
+}
+.droneContainer {
+  position: relative;
+  width: 20%;
+}
+.latexContainer {
+  position: relative;
+  width: 20%;
+}
+
+.minimaxContainer{
+   position: relative;
+  width: 20%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0s ease;
+  background-color: #808080;
+}
+
+.webifyContainer:hover .overlay {
+  opacity: 0.9;
+}
+.droneContainer:hover .overlay {
+  opacity: 0.9;
+}
+.latexContainer:hover .overlay {
+  opacity: 0.9;
+}
+.minimaxContainer:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

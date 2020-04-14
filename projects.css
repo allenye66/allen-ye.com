@@ -5,7 +5,9 @@
 #ul{
    list-style-type: none;
 }
-
+.link{
+  color: #6495ED;
+}
 .nav{
     font-family: 'Raleway', sans-serif;
     font-weight: 0px;

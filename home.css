@@ -3,11 +3,6 @@
 }
 */
 
-body{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    height: 100px;
-}
 
 .nav-link {
     color: grey;
@@ -23,7 +18,7 @@ body{
     position: relative;
     text-align: right;
     line-height: 50px;
-    right: 30px;
+    right: 15px;
 
 
 }

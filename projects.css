@@ -1,4 +1,10 @@
-
+.nav-link {
+    color: grey;
+    font-weight: 700;
+}
+#ul{
+   list-style-type: none;
+}
 
 .nav{
     font-family: 'Raleway', sans-serif;

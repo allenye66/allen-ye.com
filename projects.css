@@ -103,10 +103,10 @@
 }
 
 .text {
-  width:200px;
-  height:200px;
+  width:250px;
+  height:250px;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   position: absolute;
   top: 50%;
   left: 50%;

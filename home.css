@@ -1,7 +1,9 @@
 /*
-*{ border: 1px solid red; 
+*{
+ border: 1px solid red; 
 }
 */
+
 
 
 .nav-link {
@@ -33,15 +35,15 @@
 .hr{
     position: absolute;
     height: 25px;
-    width: 450px;
     margin-top: -130px;
-    margin-left: 936px;
+
+    margin-left: 66%;
 }
 
 .profilepic {
     background-image: url(images/profilepic3.png);
     position: absolute;
-    height: 1000px;
+    height: 140%;
     width: 67%;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,6 +113,6 @@
 	position: absolute;
 	margin-top: -120px;
 	font-size: 30pt;
-    margin-left: 1130px;
+    margin-left: 80%;
 
 }

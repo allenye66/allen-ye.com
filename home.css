@@ -36,12 +36,11 @@
     position: absolute;
     height: 25px;
     margin-top: -130px;
-
     margin-left: 66%;
 }
 
 .profilepic {
-    background-image: url(images/profilepic3.png);
+    background-image: url(images/temporary.png);
     position: absolute;
     height: 140%;
     width: 67%;

@@ -23,9 +23,7 @@
 
 }
 
-.nav.navbar-nav.navbar-right li a {
-    color: blue;
-}
+
 
 .navText{
     color: grey;
@@ -60,8 +58,8 @@
     font-size: 55px;
     text-transform: uppercase;
     text-align: center;
-    left:980px;
-    width:400px;
+    left:70%;
+    width: 400px;
     animation: animation 2s;
 }
 
@@ -96,7 +94,7 @@
     position: relative;
     text-align: left;
     top:-100px;
-    left: 930px;
+    left: 65%;
     font-family: 'Raleway', sans-serif;
 
 }

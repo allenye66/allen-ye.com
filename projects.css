@@ -4,6 +4,7 @@
   border: 1px solid red;
 }
 */
+
 .nav-link {
     color: grey;
     font-weight: 700;
@@ -23,11 +24,12 @@
 
 }
 #projectsTitle{
-    font-family: 'Raleway', sans-serif;
-	 position: absolute;
-    margin-left: 620px;
-    font-size: 60px;
-    margin-top: -60px;
+  font-family: 'Raleway', sans-serif;
+	position: relative;
+
+  margin-left: 45%;
+  font-size: 60px;
+  margin-top: -60px;
 }
 
 #projectsPara{

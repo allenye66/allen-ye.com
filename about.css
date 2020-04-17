@@ -1,8 +1,9 @@
-/*
+
 *{
  border: 1px solid red; 
+ 
 }
-*/
+
 
 .nav-link {
     color: grey;
@@ -36,8 +37,10 @@
 
 #firstimage{
     position: relative;
-    height: 500px;
-    margin-top: 100px;
+    height: 500px; 
+    display: flex;
+
+    margin-top: 10%;
     margin-left: 200px;
     margin-bottom: 100px;
 }

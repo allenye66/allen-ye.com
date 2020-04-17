@@ -17,17 +17,18 @@
     font-family: 'Raleway', sans-serif;
     position: relative;
     text-align: right;
-    line-height: 50px;
-    right: 30px;
+    line-height: 315%; /*50px */
+    right: 2.1%;
+    /*right: 30px;*/
     z-index:1; 
 
 }
 #projectsTitle{
   font-family: 'Raleway', sans-serif;
 	position: relative;
-
   margin-left: 45%;
-  font-size: 60px;
+  /*font-size: 60px;*/
+  font-size:400%;
   margin-top: -60px;
 }
 

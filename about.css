@@ -1,9 +1,21 @@
-
+/*
 *{
  border: 1px solid red; 
- 
 }
+*/
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 
 .nav-link {
     color: grey;
@@ -37,24 +49,33 @@
 
 #firstimage{
     position: relative;
-    height: 500px; 
+    /*height: 500px; */
     display: flex;
-
+    width:27%;
     margin-top: 10%;
     margin-left: 200px;
     margin-bottom: 100px;
 }
 #firstPara{
-    width:550px;
-    height: 420px;
+    width:40%;
+    height: auto;
+    /*
     font-size: 30px;
+    */
+    
+    /*
+    font-size: 180%;
+    */
+    font-size: 2vw;
     word-wrap: break-word;
     position: relative;
     text-align: left;
     font-family: 'Raleway', sans-serif;
-    position: relative;
     left: 50%;
     margin-top: -550px;
+     border: 1px solid red; 
+
+
 
 } 
 

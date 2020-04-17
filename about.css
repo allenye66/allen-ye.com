@@ -14,17 +14,16 @@
     position: relative;
     text-align: right;
     line-height: 50px;
-    right: 30px;
+    right: 15px;
+    z-index:1; 
+
 
 }
 #ul{
 	 list-style-type: none;
 
 }
-.nav-link {
-    color: grey;
-    font-weight: 700;
-}
+
 
 
 #aboutMeTitle{

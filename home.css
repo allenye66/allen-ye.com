@@ -27,8 +27,23 @@ html {
     text-align: right;
     line-height: 50px;
     right: 15px;
+    opacity: 0;
+    animation: fadeIn 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
 
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+
 #ul{
      list-style-type: none;
 
@@ -64,7 +79,7 @@ html {
     text-align: center;
     left:70%;
     width: 400px;
-    animation: animation 2s;
+    animation: animation 3s;
 }
 
 @keyframes animation{

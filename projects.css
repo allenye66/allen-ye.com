@@ -4,18 +4,7 @@
   border: 1px solid red;
 }
 */
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
+
 
 .nav-link {
     color: grey;
@@ -30,8 +19,7 @@ html {
     position: relative;
     text-align: right;
     line-height: 315%; /*50px */
-    right: 2.1%;
-    /*right: 30px;*/
+    right: 15px;
     z-index:1; 
 
 }

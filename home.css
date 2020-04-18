@@ -28,13 +28,13 @@ html {
     line-height: 50px;
     right: 15px;
     opacity: 0;
-    animation: fadeIn 3s 1;
+    animation: fadein 2s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
 
 }
 
-@keyframes fadeIn {
+@keyframes fadein {
   0% {
     opacity: 0.0;
   }
@@ -53,11 +53,15 @@ html {
     height: 25px;
     margin-top: -130px;
     margin-left: 66%;
+   opacity: 0;
+    animation: fadein 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
+
 
 .profilepic {
     background-image: url(images/temporary1.png);
-    
     position: absolute;
     height: 140%;
     width: 67%;
@@ -66,7 +70,7 @@ html {
     background-size: cover;
     margin-top: -1000px;
     margin-left: -9px;
-    
+
   
 }
 
@@ -79,7 +83,7 @@ html {
     text-align: center;
     left:70%;
     width: 400px;
-    animation: animation 3s;
+    animation: animation 2s;
 }
 
 @keyframes animation{
@@ -115,8 +119,14 @@ html {
     top:-100px;
     left: 65%;
     font-family: 'Raleway', sans-serif;
-
+    opacity: 0;
+    animation: fadein 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
+
+
+
 .introImages {
 	position: relative;
     bottom: 60px;

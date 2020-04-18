@@ -5,6 +5,22 @@
 }
 */
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body{
+  margin-bottom: 200px;
+}
 
 .nav-link {
     color: grey;
@@ -150,10 +166,16 @@
 }
 
 .text {
+  /*
   width:250px;
   height:250px;
+  */
+  width: 100%;
   color: white;
+  /*
   font-size: 17px;
+  */
+  font-size: 1.2vw;
   position: absolute;
   top: 50%;
   left: 50%;

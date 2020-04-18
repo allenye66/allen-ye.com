@@ -26,23 +26,22 @@ body{
     color: grey;
     font-weight: 700;
 }
-#ul{
-   list-style-type: none;
-}
-
 .nav{
     font-family: 'Raleway', sans-serif;
-    position: relative;
+    position: absolute;
     text-align: right;
-    line-height: 315%; /*50px */
+    line-height: 50px;
     right: 15px;
     z-index:1; 
-    opacity: 0;
-    animation: fadein 2s;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    margin-top: -100px;
 
 }
+.nav li {
+    display: none;
+    list-style-type: none;
+
+}
+
 
 @keyframes fadein {
   0% {
@@ -59,7 +58,7 @@ body{
   margin-left: 45%;
   /*font-size: 60px;*/
   font-size:400%;
-  margin-top: -60px;
+  margin-top: 100px;
   animation: type 1.5s;
   overflow:hidden;
   white-space: nowrap;
@@ -81,7 +80,7 @@ body{
     text-align: center;
     left: 14%;
     font-size: 20px;
-    top: 200px;
+    top: 190px;
 
     animation: T 3s steps(115);
     opacity: 0;

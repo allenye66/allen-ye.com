@@ -11,20 +11,31 @@
 	</head>
 
 	<body>
-      	<div class = "nav">
-            <ul id = "ul">
+      	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+        <div class = "nav" id="dropDownMenu">
+            <ul >
                <li>
-         	     <a class = "nav-link" href="index.html">Home//</a>
+               <a class = "nav-link" href="index.html">Home//</a>
               </li>
                <li>
-         	     <a class = "nav-link" href="about.html">About Me//</a>
+               <a class = "nav-link" href="about.html">About Me//</a>
                </li>
                <li>
-         	     <a class = "nav-link" href="projects.html">Personal Projects//</a>
+               <a class = "nav-link" href="projects.html">Personal Projects//</a>
               </li>
             </ul>
-      	</div>
+        </div>
 
+
+    <script type="text/javascript">
+        $("#dropDownMenu li").delay(2000).each(function(i) {
+          $(this).delay(500 * i).fadeIn(500);
+    });
+
+</script>
       	<p id = "projectsTitle"> Projects </p>
         <hr width="75%">
 

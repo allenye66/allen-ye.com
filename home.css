@@ -1,17 +1,19 @@
+
 /*
-*{
- border: 1px solid red; 
+*{ 
+  border: 1px solid blue;
 }
 */
+
 html {
     overflow: scroll;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0px;  
+    background: transparent;  
 }
-/* Optional: show position indicator in red */
+
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
@@ -23,29 +25,16 @@ html {
 
 .nav{
     font-family: 'Raleway', sans-serif;
-    position: relative;
     text-align: right;
     line-height: 50px;
+    position: absolute;
     right: 15px;
-    opacity: 0;
-    animation: fadein 2s;
-    animation-fill-mode: forwards;
-    animation-delay: 2.5s;
-
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0.0;
+    z-index: 1000;
+    top: -1px;
   }
-  100% {
-    opacity: 1.0;
-  }
-}
-
-
-#ul{
-     list-style-type: none;
+.nav li {
+    display: none;
+    list-style-type: none;
 
 }
 .hr{
@@ -53,7 +42,7 @@ html {
     height: 25px;
     margin-top: -130px;
     margin-left: 66%;
-   opacity: 0;
+    opacity: 0;
     animation: fadein 2s;
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
@@ -75,15 +64,16 @@ html {
 }
 
 .introTitle {
-	font-family: 'Raleway', sans-serif;
-	position: relative;
-	top: -70px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: -70px;
     font-size: 55px;
     text-transform: uppercase;
     text-align: center;
     left:70%;
     width: 400px;
     animation: animation 2s;
+    margin-top: 250px;
 }
 
 @keyframes animation{
@@ -125,21 +115,27 @@ html {
     animation-fill-mode: forwards;
 }
 
-
-
 .introImages {
-	position: relative;
+    position: relative;
     bottom: 60px;
     float: right;
     height: 50px;
     margin-right: 10px;
 
 }
+@keyframes fadein {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
 #relevantLinks{
-	font-family: 'Raleway', sans-serif;
-	position: absolute;
-	margin-top: -120px;
-	font-size: 30pt;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    margin-top: -120px;
+    font-size: 30pt;
     margin-left: 79%;
     min-height: 50px;
     min-width: 280px;

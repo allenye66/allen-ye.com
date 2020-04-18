@@ -30,6 +30,19 @@
   /*font-size: 60px;*/
   font-size:400%;
   margin-top: -60px;
+ animation: type 1.5s;
+  overflow:hidden;
+  white-space: nowrap;
+  /*border-right: 4px solid black;*/
+
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 8ch;
+    }
 }
 
 #projectsPara{
@@ -39,8 +52,27 @@
     left: 15%;
     font-size: 20px;
     top: 200px;
+
+    animation: T 3s steps(115);
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
 }
 
+@keyframes T{
+  0%{
+    opacity: 1;
+    width: 0ch;
+  }
+  100%{
+    opacity: 1;
+    width:84.4ch;
+  }
+}
 
 
 

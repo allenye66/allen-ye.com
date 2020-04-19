@@ -20,11 +20,12 @@ html {
 
 body{
   margin-bottom: 200px;
+  background: linear-gradient(to bottom, #20B2AA, #E0FFFF);
 
 }
 
 .nav-link {
-    color: grey;
+    color: #FFFAF0;
     font-weight: 700;
 }
 .nav{
@@ -105,6 +106,14 @@ body{
 }
 
 
+.image{
+  height: 250px;
+  width: 250px;
+  display: block;
+}
+
+
+
 
 .images{
 	position: relative;
@@ -114,6 +123,7 @@ body{
  	margin-right: 50px;
  	margin-left: 50px;
 }
+
 
 .webifyContainer {
   position: relative;
@@ -133,11 +143,6 @@ body{
   width: 20%;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 .overlay {
   position: absolute;

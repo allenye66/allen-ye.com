@@ -5,12 +5,11 @@
 }
 */
 
-
 html {
-    overflow: scroll;
-    overflow-x: hidden;
-      background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
-
+  overflow: scroll;
+  overflow-x: hidden;
+  min-height: 100%;
+  position:relative;
 
 }
 ::-webkit-scrollbar {
@@ -21,7 +20,13 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
 body{
+
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
+  margin-bottom: 250px;
 
 }
 
@@ -130,7 +135,11 @@ body{
     text-align: left;
     font-family: 'Raleway', sans-serif;
     left: 50%;
+
+    
     margin-top: -550px;
+    
+
     /*border: 1px solid red; */
     animation: fadein 3s 1;
     animation-fill-mode: forwards;

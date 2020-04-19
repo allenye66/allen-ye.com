@@ -4,6 +4,11 @@
  border: 1px solid red; 
 }
 */
+hr{
+        height: 1px;
+        background-color: #000000;
+        border: none;
+}
 
 html {
   overflow: scroll;

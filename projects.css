@@ -4,7 +4,11 @@
   border: 1px solid red;
 }
 */
-
+hr{
+        height: 2px;
+        background-color: #FFFFFF;
+        border: none;
+    }
 html {
     overflow: scroll;
     overflow-x: hidden;

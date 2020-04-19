@@ -56,14 +56,7 @@ body{
 
 }
 
-@keyframes fadein {
-  0% {
-    opacity: 0.0;
-  }
-  100% {
-    opacity: 1.0;
-  }
-}
+
 
 #ul{
 	 list-style-type: none;
@@ -125,6 +118,8 @@ body{
     margin-bottom: 100px;
 }
 #firstPara{
+    float: left; 
+    padding-left: 0px;
     width:40%;
     height: auto;
     /*
@@ -134,6 +129,7 @@ body{
     /*
     font-size: 180%;
     */
+    /*font-size: 30px;*/
     font-size: 2vw;
     word-wrap: break-word;
     position: relative;
@@ -141,18 +137,26 @@ body{
     font-family: 'Raleway', sans-serif;
     left: 50%;
 
-    
-    margin-top: -550px;
+    margin-top: -39%;
     
 
     /*border: 1px solid red; */
     animation: fadein 3s 1;
     animation-fill-mode: forwards;
     opacity: 0;
-    animation-delay: 1.5s;
+    animation-delay: 0s; /*1.5*/
+
 
 }
 
+@keyframes fadein {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
 
 
 

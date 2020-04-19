@@ -5,10 +5,10 @@
 }
 */
 hr{
-        height: 2px;
-        background-color: #FFFFFF;
-        border: none;
-    }
+  height: 1px;
+  background-color: #000000;
+  border: none;
+}
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -24,7 +24,9 @@ html {
 
 body{
   margin-bottom: 200px;
-  background: linear-gradient(to bottom, #20B2AA, #E0FFFF);
+  background: linear-gradient(to bottom,   #D8BFD8, #87CEEB);
+
+  /*background: linear-gradient(to bottom, #FFE4E1, #87CEEB); light pink to light blue*/
 
 }
 
@@ -173,21 +175,26 @@ body{
 .minimaxContainer:hover .overlay {
   opacity: 0.9;
 }
-
+.link{
+  color: #6495ED;
+}
 .text {
+  font-family: 'Raleway', sans-serif;
+
   /*
   width:250px;
   height:250px;
   */
-  width: 100%;
+  width: 90%;
   color: white;
   /*
   font-size: 17px;
   */
-  font-size: 1.2vw;
+  font-size: 1vw;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+
 }

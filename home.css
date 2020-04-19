@@ -11,7 +11,7 @@ html {
 }
 
 body{
-    background-color:#F5FFFA;
+    background-color:#F5F5F5;
 }
 ::-webkit-scrollbar {
     width: 0px;  
@@ -54,7 +54,7 @@ body{
 
 
 .profilepic {
-    background-image: url(images/temporary1.png);
+    background-image: url(images/temporary3.png);
     position: absolute;
     height: 140%;
     width: 67%;

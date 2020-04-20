@@ -25,7 +25,6 @@ html {
 body{
   margin-bottom: 200px;
   background: linear-gradient(to bottom,   #D8BFD8, #87CEEB);
-
   /*background: linear-gradient(to bottom, #FFE4E1, #87CEEB); light pink to light blue*/
 
 }
@@ -49,7 +48,6 @@ body{
     list-style-type: none;
 
 }
-
 
 @keyframes fadein {
   0% {

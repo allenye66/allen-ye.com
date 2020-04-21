@@ -24,7 +24,7 @@ html {
 
 body{
   margin-bottom: 200px;
-  background: linear-gradient(to bottom,   #D8BFD8, #87CEEB);
+  background: linear-gradient(to bottom,  #4B0082, #87CEEB);
   /*background: linear-gradient(to bottom, #FFE4E1, #87CEEB); light pink to light blue*/
 
 }
@@ -59,6 +59,8 @@ body{
 }
 
 #projectsTitle{
+    color:white;
+
   font-family: 'Raleway', sans-serif;
 	position: relative;
   margin-left: 45%;
@@ -81,6 +83,8 @@ body{
 }
 
 #projectsPara{
+    color:white;
+
     font-family: 'Raleway', sans-serif;
     position: absolute;
     text-align: center;
@@ -92,7 +96,7 @@ body{
     opacity: 0;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 2px solid black;
+    border-right: 2px solid white;
     animation-delay: 1s;
     animation-fill-mode: forwards;
 
@@ -196,3 +200,51 @@ body{
   text-align: center;
 
 }
+
+
+.drop {
+  
+  position: absolute;
+  bottom: 100%;
+  width: 15px;
+  height: 120px;
+  pointer-events: none;
+  animation: drop 0.5s linear infinite;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(0vh);
+  }
+  75% {
+    transform: translateY(90vh);
+  }
+  100% {
+    transform: translateY(90vh);
+  }
+}
+
+.stem {
+  width: 1px;
+  height: 60%;
+  margin-left: 7px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25));
+  animation: stem 0.5s linear infinite;
+}
+
+@keyframes stem {
+  0% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+

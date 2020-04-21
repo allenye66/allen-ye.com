@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
     <title>Projects | Allen</title>
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="projects.css">
-
-	</head>
-
-	<body>
-      	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="projects.css">
 
 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="/js/lib/dummy.js"></script>
 
-        <div class = "nav" id="dropDownMenu">
-            <ul >
+</head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<body class="back-row-toggle splat-toggle">
+  <div class="rain front-row"></div>
+  <div class="rain back-row"></div>
+    
+  </div>
+
+
+        <div class = "nav">
+            <ul id = "ul">
                <li>
                <a class = "nav-link" href="index.html">Home//</a>
               </li>
@@ -29,14 +43,7 @@
             </ul>
         </div>
 
-
-    <script type="text/javascript">
-        $("#dropDownMenu li").delay(2000).each(function(i) {
-          $(this).delay(500 * i).fadeIn(500);
-    });
-
-</script>
-      	<p id = "projectsTitle"> Projects </p>
+        <p id = "projectsTitle"> Projects </p>
         <hr width="75%">
 
          <p id = "projectsPara"> Below are a few of my personal projects! A few of them are finished but some of them are still a work in progress. </p>
@@ -66,7 +73,7 @@
                 <img src="images/webify.png" class="image">
 
                <div class="overlay">
-                     <div class="text">Webify is a local business firm established to support and help local organizations, businesses, and restaurants during the COVID-19 pandemic. We provide and develop modern, clean websites to struggling businesses in need free of all charges. Visit us at <a class = "link" href="https://webifybayarea.com">webifybayarea.com</a> to learn more.</div>
+                     <div class="text">Webify is a local business firm established to support and help local organizations, businesses, and restaurants during the COVID-19 pandemic. We swiftly provide and develop modern, clean websites to struggling businesses in need free of all charges. Visit us at <a class = "link" href="webifybayarea.com">webifybayarea.com</a> to learn more.</div>
                </div>
          </div>
 
@@ -115,7 +122,54 @@
 
 
 
+ <script type="text/javascript">
 
-	</body>
+
+var makeItRain = function() {
+  //clear out everything
+  $('.rain').empty();
+
+  var increment = 0;
+  var drops = "";
+  var backDrops = "";
+
+  while (increment < 100) {
+    //couple random numbers to use for various randomizations
+    //random number between 98 and 1
+    var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
+    //random number between 5 and 2
+    var randoFiver = (Math.floor(Math.random() * (5 - 2 + 1) + 2));
+    //increment
+    increment += randoFiver;
+    //add in a new raindrop with various randomizations to certain CSS properties
+    drops += '<div class="drop" style="left: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
+    backDrops += '<div class="drop" style="right: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
+  }
+
+  $('.rain.front-row').append(drops);
+  $('.rain.back-row').append(backDrops);
+}
+
+
+
+makeItRain();
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "kuv06hq1"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+  </body>
 
 </html>

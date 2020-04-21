@@ -8,6 +8,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+    height: 90%;
 }
 
 body{

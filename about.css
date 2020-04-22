@@ -5,9 +5,9 @@
 }
 */
 hr{
-        height: 1px;
-        background-color: #000000;
-        border: none;
+  height: 1px;
+  background-color: #000000;
+  border: none;
 }
 
 html {
@@ -152,9 +152,16 @@ body{
   }
 }
 
+.arrow{
+  width: 5%;
+  height: auto;
+  margin-left: 47%;
+
+}
 
 #section2 {
   height: 600px;
 }
+
 
 

@@ -22,8 +22,9 @@
 
 
   <style id="compiled-css" type="text/css">
-      html {
-  height: 100%;
+
+html{
+  height: 300%;
 }
 
 body {
@@ -56,7 +57,7 @@ body.back-row-toggle .rain.back-row {
   position: absolute;
   bottom: 100%;
   width: 15px;
-  height: 120px;
+  height: 120px; 
   pointer-events: none;
   animation: drop 0.5s linear infinite;
 }
@@ -222,7 +223,7 @@ var makeItRain = function() {
     //random number between 98 and 1
     var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
     //random number between 5 and 2
-    var randoFiver = (Math.floor(Math.random() * (5 - 2 + 1) + 2));
+    var randoFiver = 1;
     //increment
     increment += randoFiver;
     //add in a new raindrop with various randomizations to certain CSS properties
@@ -237,18 +238,6 @@ var makeItRain = function() {
 $('.splat-toggle.toggle').on('click', function() {
   $('body').toggleClass('splat-toggle');
   $('.splat-toggle.toggle').toggleClass('active');
-  makeItRain();
-});
-
-$('.back-row-toggle.toggle').on('click', function() {
-  $('body').toggleClass('back-row-toggle');
-  $('.back-row-toggle.toggle').toggleClass('active');
-  makeItRain();
-});
-
-$('.single-toggle.toggle').on('click', function() {
-  $('body').toggleClass('single-toggle');
-  $('.single-toggle.toggle').toggleClass('active');
   makeItRain();
 });
 

@@ -33,6 +33,7 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
 <body class="back-row-toggle splat-toggle">
+  <div class="splat-toggle toggle active">
   <div class="rain front-row"></div>
   <div class="rain back-row"></div>
     
@@ -131,6 +132,7 @@
 
 
          </div>
+      </div>
 
 
 
@@ -153,13 +155,18 @@ var makeItRain = function() {
     //random number between 98 and 1
     var randoHundo = (Math.floor(Math.random() * (98 - 1 + 1) + 1));
     //random number between 5 and 2
-    var randoFiver = (Math.floor(Math.random() * (5 - 2 + 1) + 2));
+    var randoFiver = (Math.floor(Math.random() * (5 - 2 + 1) + 2)); //changes how frequent rain is
     //increment
     increment += randoFiver;
     //add in a new raindrop with various randomizations to certain CSS properties
     drops += '<div class="drop" style="left: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
     backDrops += '<div class="drop" style="right: ' + increment + '%; bottom: ' + (randoFiver + randoFiver - 1 + 100) + '%; animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"><div class="stem" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div><div class="splat" style="animation-delay: 0.' + randoHundo + 's; animation-duration: 0.5' + randoHundo + 's;"></div></div>';
   }
+  $('.splat-toggle.toggle').on('click', function() {
+  $('body').toggleClass('splat-toggle');
+  $('.splat-toggle.toggle').toggleClass('active');
+  makeItRain();
+});
 
   $('.rain.front-row').append(drops);
   $('.rain.back-row').append(backDrops);

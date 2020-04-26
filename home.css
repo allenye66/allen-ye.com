@@ -8,7 +8,8 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
-    height: 90%;
+    height: 80%;
+
 }
 
 body{
@@ -57,7 +58,7 @@ body{
 .profilepic {
     background-image: url(images/temporary3.png);
     position: absolute;
-    height: 140%;
+    height: 144%;
     width: 67%;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,7 +123,6 @@ body{
 
 .introImages {
     position: relative;
-    bottom: 60px;
     float: right;
     height: 50px;
     margin-right: 10px;
@@ -136,13 +136,14 @@ body{
     opacity: 1.0;
   }
 }
-#relevantLinks{
+#contactMe{
     font-family: 'Raleway', sans-serif;
-    position: absolute;
-    margin-top: -120px;
+    position: relative;
+    margin-top: -10%;
     font-size: 30pt;
-    margin-left: 79%;
-    min-height: 50px;
+    margin-left: 84%;
+    /*min-height: 50px;
     min-width: 280px;
+    */
 
 }

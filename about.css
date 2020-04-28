@@ -7,14 +7,17 @@
 hr{
   height: 1px;
   background-color: #000000;
-  border: none;
+  border: none
 }
 
 html {
   overflow: scroll;
   overflow-x: hidden;
-  min-height: 100%;
+  height:153%;
   position:relative;
+    /*background: linear-gradient(to bottom, #00BFFF, #E0FFFF);*/
+    border: 1px solid red;
+
 
 }
 ::-webkit-scrollbar {
@@ -158,11 +161,14 @@ body{
   margin-left: 47%;
   -webkit-animation: bounce 2s infinite 2s;
   animation: bounce 2s infinite 2s;
+    margin -bottom: -5%;
 
 }
 
 #section2 {
-  height: 600px;
+  height: 100%;
+    background: linear-gradient(to bottom,#E0FFFF,#00BFFF);
+
 }
 
 @keyframes bounce {
@@ -186,5 +192,7 @@ body{
     transform: translateY(-5px);
   }
 }
-
+#section2{
+    margin-top: 2.5%;
+}
 

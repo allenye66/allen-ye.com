@@ -13,11 +13,10 @@ hr{
 html {
   overflow: scroll;
   overflow-x: hidden;
-  height:153%;
+  height:142%;
   position:relative;
-    /*background: linear-gradient(to bottom, #00BFFF, #E0FFFF);*/
     border: 1px solid red;
-
+    /*background: linear-gradient(to bottom, #00BFFF, #E0FFFF);*/
 
 }
 ::-webkit-scrollbar {

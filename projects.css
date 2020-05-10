@@ -88,14 +88,12 @@ body{
 
 #projectsPara{
     color:white;
-
     font-family: 'Raleway', sans-serif;
-    position: absolute;
     text-align: center;
-    left: 14%;
+    margin-left: auto;
+    margin-right:auto;
     font-size: 20px;
-    top: 190px;
-
+    bottom: 50px;
     animation: T 3s steps(115);
     opacity: 0;
     overflow: hidden;
@@ -119,8 +117,8 @@ body{
 
 
 .image{
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 310px;
   display: block;
 }
 

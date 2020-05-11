@@ -12,7 +12,9 @@ hr{
 html {
     overflow: scroll;
     overflow-x: hidden;
-    height: 100%;
+    height: auto;
+      background: linear-gradient(to bottom,  #4B0082, #87CEEB);
+
 }
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
@@ -26,7 +28,6 @@ html {
 
 body{
   margin-bottom: 200px;
-  background: linear-gradient(to bottom,  #4B0082, #87CEEB);
   /*background: linear-gradient(to bottom, #FFE4E1, #87CEEB); light pink to light blue*/
 
 }

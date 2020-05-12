@@ -42,6 +42,28 @@ body{
     list-style-type: none;
 
 }
+
+
+.profilepic {
+    background-image: url(images/temporary1.png);
+    position: absolute;
+    height: 144%;
+    width: 67%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1000px;
+    margin-left: -9px;
+
+  
+}
+.front{
+   /* border: 1px solid red;*/
+    /*margin-top: 5%;*/
+    margin-bottom: -10%;
+
+}
+
 .hr{
     position: absolute;
     height: 25px;
@@ -54,19 +76,6 @@ body{
 }
 
 
-.profilepic {
-    background-image: url(images/temporary3.png);
-    position: absolute;
-    height: 144%;
-    width: 67%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -1000px;
-    margin-left: -9px;
-
-  
-}
 
 .introTitle {
     font-family: 'Raleway', sans-serif;
@@ -120,13 +129,27 @@ body{
     animation-fill-mode: forwards;
 }
 
+.bottom{
+    position: relative;
+    bottom: -140px;
+    width: 20%;
+    margin-left: 80%;
+    top: 110%;
+
+}
 .introImages {
     position: relative;
     float: right;
-    height: 50px;
-    margin-right: 10px;
+    width: 17%;
+    height:17%;
+    padding-left:3%;
+    padding-right:3%;
+    padding-bottom: 0;
+    padding-top: 0;
 
 }
+
+
 @keyframes fadein {
   0% {
     opacity: 0.0;
@@ -136,11 +159,13 @@ body{
   }
 }
 #contactMe{
+    padding-bottom: 0;
+    margin-bottom: 25px;
+    margin-left: 18%;
+    width: 1000px;
     font-family: 'Raleway', sans-serif;
-    position: relative;
-    margin-top: -10%;
-    font-size: 30pt;
-    margin-left: 84%;
+   /* margin-top: -10%;*/
+    font-size: 50px;
     /*min-height: 50px;
     min-width: 280px;
     */

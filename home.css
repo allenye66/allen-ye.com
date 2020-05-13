@@ -3,8 +3,8 @@
 *{ 
   border: 1px solid blue;
 }
-*/
 
+*/
 html {
     overflow: scroll;
     overflow-x: hidden;
@@ -81,7 +81,7 @@ body{
     font-family: 'Raleway', sans-serif;
     position: relative;
     top: -70px;
-    font-size: 55px;
+    font-size: 400%;
     text-transform: uppercase;
     text-align: center;
     left:70%;
@@ -162,7 +162,7 @@ body{
     padding-bottom: 0;
     margin-bottom: 25px;
     margin-left: 18%;
-    width: 1000px;
+    width: 300px;
     font-family: 'Raleway', sans-serif;
    /* margin-top: -10%;*/
     font-size: 50px;

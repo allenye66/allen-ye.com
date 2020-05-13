@@ -13,9 +13,10 @@ hr{
 html {
   overflow: scroll;
   overflow-x: hidden;
-  height:142%;
+  height:137%;
   position:relative;
-    border: 1px solid red;
+    background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
+
     /*background: linear-gradient(to bottom, #00BFFF, #E0FFFF);*/
 
 }
@@ -28,12 +29,15 @@ html {
     background: #FF0000;
 }
 
+#section1{
+   /* background-color: red;*/
+
+}
+
 body{
 
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
-  margin-bottom: 250px;
 
 }
 
@@ -103,7 +107,21 @@ body{
   }
 }
 */
-
+#hr{
+    
+ opacity: 0;
+    animation: fadein 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
 #firstimage{
     position: relative;
     /*height: 500px; */
@@ -190,8 +208,5 @@ body{
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
   }
-}
-#section2{
-    margin-top: 2.5%;
 }
 

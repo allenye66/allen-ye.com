@@ -187,6 +187,11 @@ body{
     background: linear-gradient(to bottom,#E0FFFF,#00BFFF);
 
 }
+#plantDescription{
+  text-align: left;
+  font-size: 20px;
+  margin-left: 500px;
+}
 
 @keyframes bounce {
   0%,

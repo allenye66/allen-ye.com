@@ -15,18 +15,18 @@ html {
   overflow-x: hidden;
   height:137%;
   position:relative;
-    background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
+	background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
 
-    /*background: linear-gradient(to bottom, #00BFFF, #E0FFFF);*/
+	/*background: linear-gradient(to bottom, #00BFFF, #E0FFFF);*/
 
 }
 ::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+	width: 0px;  /* Remove scrollbar space */
+	background: transparent;  /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+	background: #FF0000;
 }
 
 #section1{
@@ -42,23 +42,23 @@ body{
 }
 
 .nav-link {
-    color: #FFFAF0;
-    font-weight: 700;
+	color: #FFFAF0;
+	font-weight: 700;
 }
 
 .nav{
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    text-align: right;
-    line-height: 50px;
-    right: 15px;
-    z-index:1; 
-    margin-top: -100px;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	text-align: right;
+	line-height: 50px;
+	right: 15px;
+	z-index:1; 
+	margin-top: -100px;
 
 }
 .nav li {
-    display: none;
-    list-style-type: none;
+	display: none;
+	list-style-type: none;
 
 }
 
@@ -79,12 +79,12 @@ body{
 
 }
 @keyframes type{
-    0%{
-        width: 0ch;
-    }
-    100%{
-        width: 8ch;
-    }
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width: 8ch;
+	}
 }
 
 /*
@@ -94,81 +94,81 @@ body{
 
 @keyframes smalltitleanimation{
   0%{
-    opacity: 0;
-    bottom: 40px;
+	opacity: 0;
+	bottom: 40px;
   }
   80%{
-    opacity:0;
-    bottom: 40px;
+	opacity:0;
+	bottom: 40px;
   }
   80%{
-    opacity:1;
-    bottom: 0px;
+	opacity:1;
+	bottom: 0px;
   }
 }
 */
 #hr{
-    
+	
  opacity: 0;
-    animation: fadein 2s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
+	animation: fadein 2s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
 }
 @keyframes fadein {
   0% {
-    opacity: 0.0;
+	opacity: 0.0;
   }
   100% {
-    opacity: 1.0;
+	opacity: 1.0;
   }
 }
 #firstimage{
-    position: relative;
-    /*height: 500px; */
-    display: flex;
-    width:27%;
-    margin-top: 10%;
-    margin-left: 200px;
-    margin-bottom: 100px;
+	position: relative;
+	/*height: 500px; */
+	display: flex;
+	width:27%;
+	margin-top: 10%;
+	margin-left: 200px;
+	margin-bottom: 100px;
 }
 #firstPara{
-    float: left; 
-    padding-left: 0px;
-    width:40%;
-    height: auto;
-    /*
-    font-size: 30px;
-    */
-    
-    /*
-    font-size: 180%;
-    */
-    /*font-size: 30px;*/
-    font-size: 2vw;
-    word-wrap: break-word;
-    position: relative;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-    left: 50%;
+	float: left; 
+	padding-left: 0px;
+	width:40%;
+	height: auto;
+	/*
+	font-size: 30px;
+	*/
+	
+	/*
+	font-size: 180%;
+	*/
+	/*font-size: 30px;*/
+	font-size: 2vw;
+	word-wrap: break-word;
+	position: relative;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	left: 50%;
 
-    margin-top: -41%;
-    
+	margin-top: -41%;
+	
 
-    /*border: 1px solid red; */
-    animation: fadein 3s 1;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    animation-delay: 0s; /*1.5*/
+	/*border: 1px solid red; */
+	animation: fadein 3s 1;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	animation-delay: 0s; /*1.5*/
 
 
 }
 
 @keyframes fadein {
   0% {
-    opacity: 0.0;
+	opacity: 0.0;
   }
   100% {
-    opacity: 1.0;
+	opacity: 1.0;
   }
 }
 
@@ -178,20 +178,34 @@ body{
   margin-left: 47%;
   -webkit-animation: bounce 2s infinite 2s;
   animation: bounce 2s infinite 2s;
-    margin -bottom: -5%;
+	margin -bottom: -5%;
 
 }
 
 #section2 {
   height: 100%;
-    background: linear-gradient(to bottom,#E0FFFF,#00BFFF);
+	background: linear-gradient(to bottom,#E0FFFF,#00BFFF);
 
 }
+#pitcher1{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+}
+#pitcher2{
+	position: absolute;
+	width: 20%;
+	height: auto;
+	margin-left: 40%;
+}
 #plantDescription{
+	position: absolute;
   text-align: left;
+  width: 30%;
   font-size: 20px;
-  margin-left: 500px;
-  color: white;
+  margin-left: 70%;
+  color: green;
+  font-weight: 500px;
 }
 
 @keyframes bounce {
@@ -200,19 +214,19 @@ body{
   20%,
   50%,
   80% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	transform: translateY(-10px);
   }
   60% {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
   }
 }
 

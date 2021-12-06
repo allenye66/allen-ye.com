@@ -132,37 +132,33 @@ body {
 	}
 }
 
+.first{
+    height:700px;
+}
+
+
 #firstimage {
-	position: relative;
-	/*height: 500px; */
+	position: absolute;
 	display: flex;
-	width: 27%;
-	margin-top: 10%;
+	width: 450px;
+	margin-top: 50px;
 	margin-left: 200px;
 	margin-bottom: 100px;
 }
 
 #firstPara {
-    display: inline-block;
+    position:absolute;
 	float: left;
 	padding-left: 0px;
-	width: 40%;
+	width: 700px;
 	height: auto;
-	/*
-	font-size: 30px;
-	*/
-	/*
-	font-size: 180%;
-	*/
-	/*font-size: 30px;*/
-	font-size: 2vw;
+	font-size: 35px;
 	word-wrap: break-word;
 	position: relative;
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
-	left: 50%;
-	margin-top: -41%;
-	/*border: 1px solid red; */
+	left: 900px;
+	margin-top: 50px;
 	animation: fadein 3s 1;
 	animation-fill-mode: forwards;
 	opacity: 0;
@@ -187,7 +183,6 @@ body {
 	animation: bounce 2s infinite 2s;
 	position: relative;
 	overflow: auto;
-	margin-top: -50px;
 }
 
 #section2 {

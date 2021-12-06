@@ -88,6 +88,9 @@ body{
 }
 
 #projectsPara{
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
     color:white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -95,7 +98,9 @@ body{
     margin-right:auto;
     font-size: 20px;
     bottom: 50px;
-    animation: T 3s steps(115);
+    animation: T 2s steps(100, end), blink-caret 1s step-end 2;
+   /* animation: T 5s steps(115);*/
+    
     opacity: 0;
     overflow: hidden;
     white-space: nowrap;
@@ -218,7 +223,9 @@ body{
 
 
 .drop {
-  
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
   position: absolute;
   bottom: 100%;
   width: 15px;
@@ -240,6 +247,9 @@ body{
 }
 
 .stem {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
   width: 1px;
   height: 60%; 
   margin-left: 7px;
@@ -264,6 +274,9 @@ body{
 
 
 .splat {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
   width: 15px;
   height: 10px;
   border-top: 2px dotted rgba(255, 255, 255, 0.5);

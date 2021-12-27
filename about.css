@@ -41,7 +41,9 @@ body {
 	position: relative;
 	margin-top: -100px;
 	height: 1200px;
-	background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
+    width:100%;
+   /* background-color: linear-gradient(to bottom, #00BFFF, #E0FFFF);*/
+
 
 }
 
@@ -189,7 +191,7 @@ body {
 	padding-top: 0px;
 	margin-top: 0px;
 	height: 1200px;
-	background: linear-gradient(to top, #00BFFF, #E0FFFF);
+	/* background: linear-gradient(to top, #00BFFF, #E0FFFF); */
 }
 
 #languages {

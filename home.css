@@ -175,10 +175,11 @@ body{
 }
 
 .vline
-{
+{   
+
     margin-top: 1420px; 
     height: 740px;
-    left: 50%;
+    padding-left:888px;
     position: absolute;
     top: 0;
     width: 1px;
@@ -199,12 +200,12 @@ body{
 }
 
 .circle:before {
-    padding-top: 4%;
+    padding-top: 35px;
     position: absolute;
   content: ' \25CF';
   font-size: 20px;
-  left: 49.75%;
-  margin-top: -2%;
+left:-60px;
+    padding-left: 951.5px;
 }
 
 #exp1{
@@ -227,8 +228,8 @@ body{
 }
 .right_exp{
     position:absolute; 
-    right:-50px;
-    padding-right: 500px;
+    left:-60px;
+    padding-left: 1200px;
 }
 
 .date{
@@ -243,8 +244,10 @@ body{
 
 .role{
     font-size: 1em;
+    min-width: 250px;
 }
 
 .job_descr{
     font-size: 1em;
+    min-width: 250px;
 }

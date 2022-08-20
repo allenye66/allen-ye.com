@@ -11,6 +11,9 @@ html {
 
 }
 
+#wrapper{
+    min-width:1792px;
+}
 body{
     background-color:#F5F5F5;
 }
@@ -25,7 +28,9 @@ body{
 
 
 .content{
-    /*border: 1px solid red;*/
+    min-width: 1000px;
+    min-height: 1000px;
+
 
 }
 
@@ -163,14 +168,16 @@ body{
 #experience {
     padding-top: 0px;
     margin-top: 0px;
-    height: 1000px;
+   min-width: 1792px;
+    min-height: 1000px;
+
     /* background: linear-gradient(to top, #00BFFF, #E0FFFF); */
 }
 
 .vline
 {
-    margin-top: 1340px;
-    height: 80%;
+    margin-top: 1420px; 
+    height: 740px;
     left: 50%;
     position: absolute;
     top: 0;
@@ -203,23 +210,25 @@ body{
 #exp1{
     font-family: 'Josefin Sans', sans-serif;
     color: #182153;
-    
+    min-width: 1792px;
     height: 100px;
 }
 
 .exp_text{
     padding-top: 1%;
+    min-width: 1792px;
+    min-height: 200px;
 }
 .left_exp{
     text-align: right;
     position:absolute; 
     left:-60px;
-    padding-left: 30%;
+    padding-left: 500px;
 }
 .right_exp{
     position:absolute; 
     right:-50px;
-    padding-right: 30%;
+    padding-right: 500px;
 }
 
 .date{

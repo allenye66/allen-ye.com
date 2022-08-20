@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164253178-1"></script>
+        
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164253178-1');
+</script>
+        
+    <title>About | Allen</title>
+        
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="about.css">
+
+	</head>
+    
+	<body>
+      <div id = "section1">
+
+        <div class = "nav" id="dropDownMenu">
+            <ul >
+               <li>
+               <a class = "nav-link" href="index.html">Home//</a>
+              </li>
+               <li>
+               <a class = "nav-link" href="about.html">About Me//</a>
+               </li>
+               <li>
+               <a class = "nav-link" href="projects.html">Personal Projects//</a>
+              </li>
+            </ul>
+        </div>
+
+
+    <script type="text/javascript">
+        $("#dropDownMenu li").delay(2000).each(function(i) {
+          $(this).delay(500 * i).fadeIn(500);
+    });</script>
+
+
+
+        <p id = "aboutMeTitle"> About Me </p>
+        <hr id = "hr" width="75%">
+
+
+        <div class = "first">
+          <img id = "firstimage" src = "images/snow.jpg"> 
+          <p id = "firstPara" >Hello! My name is Allen, I am a current freshman at Northeastern University. I have 8+ years of programming experience so far and I am very enthusiastic about all aspects of computer science. My interests mainly are geared towards artificial intelligence, specifically computer vision, and web development. I love creating and publishing  products while also learning about new languages and APIs at the same time. Apart from programming, my other hobbies inclue running, hiking, playing guitar and piano, and fishing.</p>
+        </div>
+
+        <script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 1000, function(){
+                window.location.hash = hash;
+              });
+            }
+          });
+        });
+        </script>
+
+
+
+      <a href="#section2" >
+        <!-- <p class ="nextSectionClick" >Click Me</p> -->
+        <img class = "arrow" src = "images/arrow.png">
+      </a>
+
+    </div>
+        
+        
+    <div id = "section2">
+        
+        <p id = "languages"> Languages I am fluent in: </p>
+        
+    </div>
+
+
+
+
+
+
+
+	</body>
+
+
+</html>

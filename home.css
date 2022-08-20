@@ -1,7 +1,7 @@
 
 
 *{ 
-  /*border: 1px solid blue;*/
+  /*border: 1px solid red; */
 }
 
 
@@ -169,7 +169,7 @@ body{
 
 .vline
 {
-    margin-top: 75%;
+    margin-top: 1340px;
     height: 80%;
     left: 50%;
     position: absolute;
@@ -198,4 +198,44 @@ body{
   font-size: 20px;
   left: 49.75%;
   margin-top: -2%;
+}
+
+#exp1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #182153;
+    
+    height: 100px;
+}
+
+.exp_text{
+    padding-top: 1%;
+}
+.left_exp{
+    text-align: right;
+    position:absolute; 
+    left:-60px;
+    padding-left: 30%;
+}
+.right_exp{
+    position:absolute; 
+    right:-50px;
+    padding-right: 30%;
+}
+
+.date{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.company{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.role{
+    font-size: 1em;
+}
+
+.job_descr{
+    font-size: 1em;
 }

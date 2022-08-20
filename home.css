@@ -130,7 +130,7 @@ body{
 
 .arrow {
     width: 5%;
-    margin-top: 18%;
+    margin-top: 20%;
     margin-left: 47%;
     -webkit-animation: bounce 2s infinite 2s;
     animation: bounce 2s infinite 2s;
@@ -160,10 +160,42 @@ body{
     }
 }
 
-#section2 {
+#experience {
     padding-top: 0px;
     margin-top: 0px;
-    height: 1200px;
+    height: 1000px;
     /* background: linear-gradient(to top, #00BFFF, #E0FFFF); */
 }
 
+.vline
+{
+    margin-top: 75%;
+    height: 80%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 1px;
+    border:none;
+    border-right:solid 1px black;
+    z-index:10;
+}
+
+
+.center_text{
+    padding-top: 1%;
+    text-align: center;
+    color: #001418;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+
+}
+
+.circle:before {
+    padding-top: 4%;
+    position: absolute;
+  content: ' \25CF';
+  font-size: 20px;
+  left: 49.75%;
+  margin-top: -2%;
+}

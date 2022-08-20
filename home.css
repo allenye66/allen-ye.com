@@ -43,15 +43,14 @@ body{
 }
 
 .introImages {
+    height: 100px;
+    padding: 20px;
 
-
-    height: 30%;
-    width: 30%;
 }
-
 .socials{
-    font-size: 200%;
+    font-size: 100%;
     float: right;
+    padding-right: 50px;
 }
 
 .front{

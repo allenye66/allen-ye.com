@@ -33,17 +33,13 @@ body{
 
 }
 
-.front{
 
-   /* border: 1px solid red;*/
-    margin-bottom: -10%;
-}
 
 .profilepic {
     background-image: url(images/snow.jpg);
     position: absolute;
     height: 1350px;
-    width: 1200px;
+    width: 888px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,15 +48,10 @@ body{
  
 }
 
-.introImages {
-    height: 100px;
-    padding: 20px;
+.front{
 
-}
-.socials{
-    font-size: 100%;
-    float: right;
-    padding-right: 50px;
+   /* border: 1px solid red;*/
+    margin-bottom: -10%;
 }
 
 
@@ -70,10 +61,11 @@ body{
     font-family: 'Raleway', sans-serif;
     position: relative;
     top: -70px;
+    left: 900px;
     font-size: 400%;
     text-transform: uppercase;
     text-align: center;
-    left:70%;
+    left:;
     width: 400px;
     animation: animation 2s;
     margin-top: 250px;
@@ -91,18 +83,16 @@ body{
     position: absolute;
     height: 25px;
     margin-top: -130px;
-    margin-left: 66%;
+    margin-left: 870px;
     opacity: 0;
     animation: fadein 2s;
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
 
-
-
 #introPara {
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 15px;
 
     font-family: 'Raleway', sans-serif;
     width:420px;
@@ -111,14 +101,21 @@ body{
     text-align: left;
 }
 
-.bottom{
-    position: relative;
-    bottom: -140px;
-    width: 20%;
-    margin-left: 80%;
-    top: 110%;
+
+.introImages {
+    height: 100px;
+    padding: 20px;
 
 }
+.socials{
+    font-size: 100%;
+    padding-right: 50px;
+    margin-left: 900px;
+}
+
+
+
+
 
 
 

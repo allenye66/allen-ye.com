@@ -39,7 +39,7 @@ body{
     background-image: url(images/snow.jpg);
     position: absolute;
     height: 1350px;
-    width: 888px;
+    width: 988px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,11 +61,10 @@ body{
     font-family: 'Raleway', sans-serif;
     position: relative;
     top: -70px;
-    left: 900px;
+    left: 1000px;
     font-size: 400%;
     text-transform: uppercase;
     text-align: center;
-    left:;
     width: 400px;
     animation: animation 2s;
     margin-top: 250px;
@@ -83,7 +82,7 @@ body{
     position: absolute;
     height: 25px;
     margin-top: -130px;
-    margin-left: 870px;
+    margin-left: 970px;
     opacity: 0;
     animation: fadein 2s;
     animation-delay: 1.5s;
@@ -110,7 +109,7 @@ body{
 .socials{
     font-size: 100%;
     padding-right: 50px;
-    margin-left: 900px;
+    margin-left: 1000px;
 }
 
 

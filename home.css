@@ -1,7 +1,7 @@
 
 
 *{ 
-  /*border: 1px solid red; */
+  border: 1px solid red;
 }
 
 
@@ -31,14 +31,19 @@ body{
     min-width: 1000px;
     min-height: 1000px;
 
+}
 
+.front{
+
+   /* border: 1px solid red;*/
+    margin-bottom: -10%;
 }
 
 .profilepic {
     background-image: url(images/snow.jpg);
     position: absolute;
-    height: 144%;
-    width: 67%;
+    height: 1350px;
+    width: 1200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,12 +63,7 @@ body{
     padding-right: 50px;
 }
 
-.front{
 
-   /* border: 1px solid red;*/
-    /*margin-top: 5%;*/
-    margin-bottom: -10%;
-}
 
 
 .introTitle {

@@ -12,10 +12,12 @@ html {
 }
 
 #wrapper{
+
     min-width:1792px;
+    
 }
 body{
-    background-color:#F5F5F5;
+
 }
 ::-webkit-scrollbar {
     width: 0px;  
@@ -160,89 +162,91 @@ body{
     }
 }
 
+
 #experience {
+    font-family: 'Josefin Sans', sans-serif;
     padding-top: 0px;
     margin-top: 0px;
-   min-width: 1792px;
     min-height: 1000px;
 
-    /* background: linear-gradient(to top, #00BFFF, #E0FFFF); */
+}
+
+#experience_content {
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 70%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    color: #182153;
+    flex:33.3%;
+    padding: 20px;
+}
+
+.center_text{
+    padding-top: 1%;
+    text-align: center;
+    color: #001418;
+    font-weight: 600;
+    font-size: 2em;
+    margin-left: 1%;
+    min-width: 1200px;
 }
 
 .vline
 {   
-
-    margin-top: 1420px; 
     height: 740px;
-    padding-left:888px;
-    position: absolute;
-    top: 0;
     width: 1px;
     border:none;
     border-right:solid 1px black;
     z-index:10;
 }
 
-
-.center_text{
-    padding-top: 1%;
-    text-align: center;
-    color: #001418;
-  font-weight: 600;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 2em;
-
-}
-
 .circle:before {
-    padding-top: 35px;
-    position: absolute;
-  content: ' \25CF';
-  font-size: 20px;
-left:-60px;
-    padding-left: 951.5px;
+    content: ' \25CF';
+    font-size: 20px;
+    margin-left: 49.69%;
 }
 
-#exp1{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #182153;
-    min-width: 1792px;
-    height: 100px;
-}
 
-.exp_text{
-    padding-top: 1%;
-    min-width: 1792px;
-    min-height: 200px;
-}
-.left_exp{
+
+
+.leftside {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    width: 500px;
     text-align: right;
-    position:absolute; 
-    left:-60px;
-    padding-left: 500px;
-}
-.right_exp{
-    position:absolute; 
-    left:-60px;
-    padding-left: 1200px;
 }
 
-.date{
+.rightside{
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    width: 500px;
+   
+}
+
+
+#date{
     font-size: 1.3em;
     font-weight: 600;
 }
 
-.company{
+#company{
     font-size: 1.3em;
     font-weight: 600;
 }
 
-.role{
+#role{
     font-size: 1em;
-    min-width: 250px;
 }
 
-.job_descr{
+#job_descr{
     font-size: 1em;
-    min-width: 250px;
 }
+

@@ -195,14 +195,15 @@ body{
     font-size: 2em;
     margin-left: 1%;
     min-width: 1200px;
+    margin-left: -1%;
 }
 
 .vline
 {   
-    height: 740px;
+    height: 1500px;
     width: 1px;
     border:none;
-    border-right:solid 1px black;
+    border-right:solid 0.5px black;
     z-index:10;
 }
 
@@ -244,9 +245,38 @@ body{
 
 #role{
     font-size: 1em;
+    line-height: 1.8em;
+    font-size: 13px;
+
 }
 
 #job_descr{
     font-size: 1em;
+    line-height: 1.8em;
+    font-size: 13px;
 }
 
+
+#br_height{
+    font-size: 1em;
+    line-height: 1.6em;
+    font-size: 13px;
+}
+
+#br_height2{
+    font-size: 1em;
+    line-height: 3.2em;
+    font-size: 13px;
+}
+
+#br_height3{
+    font-size: 1em;
+    line-height: 1.2em;
+    font-size: 13px;
+}
+
+#br_height4{
+    font-size: 1em;
+    line-height: 2.2em;
+    font-size: 13px;
+}

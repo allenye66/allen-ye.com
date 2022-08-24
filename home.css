@@ -2,6 +2,7 @@
 
 *{ 
   /*border: 1px solid red;*/
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -12,11 +13,12 @@ html {
 }
 
 #wrapper{
-
     min-width:1792px;
     
 }
 body{
+    width: 100%;
+    margin:0px;
 
 }
 ::-webkit-scrollbar {
@@ -31,8 +33,7 @@ body{
 
 .content{
     min-width: 1000px;
-    min-height: 1000px;
-
+    min-height: 852px;
 }
 
 
@@ -51,16 +52,10 @@ body{
 }
 
 .front{
-
-   /* border: 1px solid red;*/
     margin-bottom: -10%;
 }
 
-
-
-
 .introTitle {
-    font-family: 'Raleway', sans-serif;
     position: relative;
     top: -70px;
     left: 1000px;
@@ -95,7 +90,6 @@ body{
     padding-top: 10px;
     padding-left: 15px;
 
-    font-family: 'Raleway', sans-serif;
     width:420px;
     height: 50px;
     word-wrap: break-word;
@@ -116,10 +110,6 @@ body{
 
 
 
-
-
-
-
 @keyframes fadein {
   0% {
     opacity: 0.0;
@@ -129,10 +119,30 @@ body{
   }
 }
 
+#aboutme{
+    background-color: black;
+    text-color: white;
+    height: 300px;
+    min-height: 300px;
+    padding: 0px;
+    min-width: 800px;
+}
+
+#about_descr{
+    color: white;
+    margin-top:-0.05%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5em;
+    padding-top: 5%;
+    width: 52%;
+    float: center;
+    margin-left: 25%;
+
+}
 
 .arrow {
     width: 5%;
-    margin-top: 20%;
     margin-left: 47%;
     -webkit-animation: bounce 2s infinite 2s;
     animation: bounce 2s infinite 2s;
@@ -164,17 +174,17 @@ body{
 
 
 #experience {
-    font-family: 'Josefin Sans', sans-serif;
     padding-top: 0px;
     margin-top: 0px;
     min-height: 1000px;
+
 
 }
 
 #experience_content {
     margin: 0 auto;
     min-height: 100vh;
-    width: 70%;
+    width: min-content;
 }
 
 .row {
@@ -182,7 +192,7 @@ body{
 }
 
 .column {
-    color: #182153;
+    color: black;
     flex:33.3%;
     padding: 20px;
 }
@@ -212,8 +222,6 @@ body{
     font-size: 20px;
     margin-left: 49.69%;
 }
-
-
 
 
 .leftside {
@@ -277,6 +285,6 @@ body{
 
 #br_height4{
     font-size: 1em;
-    line-height: 2.2em;
+    line-height: 2.3em;
     font-size: 13px;
 }

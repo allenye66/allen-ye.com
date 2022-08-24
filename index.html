@@ -81,72 +81,41 @@
 				<!-- image is in css file-->
 			</div>
 
-			<script>
-				$(document).ready(function () {
-					$("a").on('click', function (event) {
-						if (this.hash !== "") {
-							event.preventDefault();
-							var hash = this.hash;
-							$('html, body').animate({
-								scrollTop: $(hash).offset().top
-							}, 1000, function () {
-								window.location.hash = hash;
-							});
-						}
-					});
+
+
+		</div>
+
+	</div>
+
+	<div id="aboutme">
+		<p id="about_descr">
+			Allen is currently a student attending Northeastern University where he is studying computer science and
+			artificial intelligence. He is interested in the intersections between computer vision and robotics,
+			specifically autonomous vehicles.</p>
+
+		<script>
+			$(document).ready(function () {
+				$("a").on('click', function (event) {
+					if (this.hash !== "") {
+						event.preventDefault();
+						var hash = this.hash;
+						$('html, body').animate({
+							scrollTop: $(hash).offset().top
+						}, 1000, function () {
+							window.location.hash = hash;
+						});
+					}
 				});
-			</script>
+			});
+		</script>
 
-			<a href="#experience">
-				<img class="arrow" src="images/arrow.png">
-			</a>
-
-		</div>
-
+		<a href="#experience">
+			<img class="arrow" src="images/arrow2.png">
+		</a>
 	</div>
 
-	<!-- 
-	<div id="experience">
-
-		<h3 class="center_text"> Experience</h3>
-
-		<div>
-
-			<hr class="vline" />
 
 
-			<div id="exp1">
-				<span class="circle"></span>
-
-				<div class="exp_text">
-					<div class="left_exp">
-						<div class="date">
-							<p>2022 </p>
-						</div>
-						<div class="role">
-							<p>Software Engineering Intern</p>
-						</div>
-					</div>
-
-
-					<div class="right_exp">
-						<div class="company">
-							<p>Tesla Autopilot</p>
-						</div>
-						<div class="job_descr">
-							<p>Incoming Summer 2023 Intern</p>
-						</div>
-					</div>
-
-
-				</div>
-			</div>
-
-
-		</div>
-
-	</div>
-	-->
 	<div id="experience">
 
 		<div id="experience_content">
@@ -156,12 +125,12 @@
 					<p class="leftside" id="date">May - August 2023</p>
 					<p class="leftside" id="role"> Software Engineering Intern </p>
 					<p id="job_descr"> <br> </p>
-					<p id="job_descr"> <br> </p>
+
 
 					<p class="leftside" id="date">September - December 2022</p>
 					<p class="leftside" id="role"> Software Developer Intern </p>
 
-					<p id="job_descr"> <br> </p>
+
 					<p id="job_descr"> <br> </p>
 
 					<p class="leftside" id="date">June - August 2022</p>
@@ -196,12 +165,12 @@
 					<p class="rightside" id="job_descr"> Incoming intern for the AI Tooling Team </p>
 
 					<p id="job_descr"> <br> </p>
-					<p id="job_descr"> <br> </p>
+
 
 					<p class="rightside" id="company">Amazon</p>
 					<p class="rightside" id="job_descr">Alexa AI Team </p>
 
-					<p id="job_descr"> <br> </p>
+
 					<p id="job_descr"> <br> </p>
 
 					<p class="rightside" id="company">Northrop Grumman</p>

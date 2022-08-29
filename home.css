@@ -19,6 +19,7 @@ html {
 body{
     width: 100%;
     margin:0px;
+    min-width: 1210px;
 
 }
 ::-webkit-scrollbar {
@@ -29,86 +30,54 @@ body{
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-
-
-.content{
-    min-width: 1000px;
-    min-height: 852px;
-}
-
-
-
-.profilepic {
-    background-image: url(images/snow.jpg);
-    position: absolute;
-    height: 1350px;
-    width: 988px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -1000px;
-    margin-left: -9px;
- 
-}
-
-.front{
-    margin-bottom: -10%;
-}
-
-.introTitle {
-    position: relative;
-    top: -70px;
-    left: 1000px;
-    font-size: 400%;
-    text-transform: uppercase;
-    text-align: center;
-    width: 400px;
-    animation: animation 2s;
-    margin-top: 250px;
-}
-
-@keyframes animation{
-   0%{
-    color: #F4F4F4;
-    left: 10px;
-  }
-}
-
-.hr{
-    padding-left: 5px;
-    position: absolute;
-    height: 25px;
-    margin-top: -130px;
-    margin-left: 970px;
-    opacity: 0;
-    animation: fadein 2s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-}
-
-#introPara {
-    padding-top: 10px;
-    padding-left: 15px;
-
-    width:420px;
-    height: 50px;
-    word-wrap: break-word;
+.intro-text {
+    padding-top: 300px;
     text-align: left;
+    margin: 80px 40px 0 40px;
 }
 
-
-.introImages {
-    height: 100px;
-    padding: 20px;
-
-}
-.socials{
-    font-size: 100%;
-    padding-right: 50px;
-    margin-left: 1000px;
+.intro-h1 {
+    font-weight: 700;
+    font-size: 50pt;
+    text-transform: uppercase;
 }
 
+.intro-p {
+    margin: 80px 40px;
+}
 
+.intro-link {
+    font-weight: 700;
+}
+
+.intro-rectangle {
+  float: left;
+  margin: 10px 0 0 -40px;
+  border-top: 20px solid #555;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 450px;
+}
+
+.intro-img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.background {
+  background-image: url("images/snow.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 950px;
+  width: 67%;
+}
+
+.background-overlay {
+  height: 950px;
+  width: 33%;
+  padding-top: 30px;
+}
 
 @keyframes fadein {
   0% {
@@ -137,7 +106,7 @@ body{
     padding-top: 5%;
     width: 52%;
     float: center;
-    margin-left: 25%;
+    margin-left: 23%;
 
 }
 
@@ -193,7 +162,7 @@ body{
 
 .column {
     color: black;
-    flex:33.3%;
+    flex:10%;
     padding: 20px;
 }
 
@@ -226,7 +195,6 @@ body{
 
 .leftside {
     display: inline-block;
-    margin: 20px;
     vertical-align: top;
     width: 500px;
     text-align: right;
@@ -234,7 +202,6 @@ body{
 
 .rightside{
     display: inline-block;
-    margin: 20px;
     vertical-align: top;
     width: 520px;
    

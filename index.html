@@ -25,7 +25,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="home.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link href="bootstrap.css" rel="stylesheet">
+	<link href="home.css" rel="stylesheet">
+	<link href="personal.css" rel="stylesheet">
 
 
 </head>
@@ -35,200 +37,184 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
-	<div id="wrapper">
-		<div class="content">
+	<div class="wrapper">
+		<div class="background-overlay">
 
-
-
-			<div class="front">
-				<div class="introTitle">
-					<h1> MEET <br> ALLEN <br> YE </h1>
-				</div>
-
-				<img class="hr" src="images/hr.png">
-
-				<div class="hr" id="introPara">
-					<p> Welcome to my website! For a pdf copy of my resume, please check out this link
-						<a href="allen_ye_resume.pdf">here</a>.
-					</p>
-
-
-
-
-				</div>
-
-				<div class="socials">
+			<div class="intro-text">
+				<h1 class="intro-h1">MEET ALLEN YE</h1>
+				<div class="intro-rectangle"></div>
+			</div>
+			<div class="intro-p">
+				<p> Welcome to my website! For a pdf copy of my resume, please check out this link
+					<a href="allen_ye_resume.pdf">here</a>.
+				</p>
+			</div>
+			<div class="intro-p">
+				<p class="intro-link">Relevant Links:</p>
+				<div>
 					<a href="https://www.linkedin.com/in/allenye66/"">
-					<img alt = " Allen Ye's LinkedIn profile" class=" introImages" src="images/linkedin.png">
+						<img alt = " Allen Ye's LinkedIn profile" class="intro-img" src=" images/linkedin.png">
 					</a>
-
 					<a href="https://www.youtube.com/channel/UCizBpF7qzwf61U6LYe9ozJg">
-						<img alt="Allen Ye's Youtube channel" class="introImages" src="images/youtube.png">
+						<img alt="Allen Ye's Youtube channel" class="intro-img" src="images/youtube.png">
 					</a>
-
 					<a href="https://github.com/allenye66">
-						<img alt="Allen Ye's Github page" class="introImages" src="images/github.png">
+						<img alt="Allen Ye's Github page" class="intro-img" src="images/github.png">
 					</a>
+
+
 				</div>
-
-
-
-			</div>
-
-
-
-			<div class="profilepic">
-				<!-- image is in css file-->
-			</div>
-
-
-
-		</div>
-
-	</div>
-
-	<div id="aboutme">
-		<p id="about_descr">
-			Allen is currently a student attending Northeastern University where he is studying computer science and
-			artificial intelligence. He is interested in the intersections between computer vision and robotics,
-			specifically autonomous vehicles.</p>
-
-		<script>
-			$(document).ready(function () {
-				$("a").on('click', function (event) {
-					if (this.hash !== "") {
-						event.preventDefault();
-						var hash = this.hash;
-						$('html, body').animate({
-							scrollTop: $(hash).offset().top
-						}, 1000, function () {
-							window.location.hash = hash;
-						});
-					}
-				});
-			});
-		</script>
-
-		<a href="#experience">
-			<img class="arrow" src="images/arrow2.png">
-		</a>
-	</div>
-
-
-
-	<div id="experience">
-
-		<div id="experience_content">
-			<h3 class="center_text"> Experience</h3>
-			<div class="row">
-				<div class="column">
-					<p class="leftside" id="date">May - August 2023</p>
-					<p class="leftside" id="role"> Software Engineering Intern </p>
-					<p id="job_descr"> <br> </p>
-
-
-					<p class="leftside" id="date">September - December 2022</p>
-					<p class="leftside" id="role"> Software Developer Intern </p>
-
-
-					<p id="job_descr"> <br> </p>
-
-					<p class="leftside" id="date">June - August 2022</p>
-					<p class="leftside" id="role"> Software Engineering Intern </p>
-
-					<p id="br_height"> <br> </p>
-					<p id="br_height"> <br> </p>
-					<p id="br_height"> <br> </p>
-
-					<p class="leftside" id="date">January - May 2022</p>
-					<p class="leftside" id="role">Machine Learning and NLP Intern </p>
-					<p id="job_descr"> <br> </p>
-					<p id="job_descr"> <br> </p>
-					<p id="job_descr"> <br> </p>
-					<p id="job_descr"> <br> </p>
-					<p class="leftside" id="date">August - December 2020</p>
-					<p class="leftside" id="role">Research Intern</p>
-
-
-					<p id="br_height2"> <br> </p>
-					<p id="br_height"> <br> </p>
-
-
-					<p class="leftside" id="date">May - August 2020</p>
-					<p class="leftside" id="role">Research Intern</p>
-				</div>
-				<div class="column">
-					<hr class="vline" />
-				</div>
-				<div class="column">
-					<p class="rightside" id="company">Tesla Autopilot</p>
-					<p class="rightside" id="job_descr"> Incoming intern for the AI Tooling Team </p>
-
-					<p id="job_descr"> <br> </p>
-
-
-					<p class="rightside" id="company">Amazon</p>
-					<p class="rightside" id="job_descr">Alexa AI Team </p>
-
-
-					<p id="job_descr"> <br> </p>
-
-					<p class="rightside" id="company">Northrop Grumman</p>
-					<p class="rightside" id="job_descr"> Used C++ to improve the Sustainment and Modification of Radar
-						Sensors (SMORS)
-						system for detecting aerial objects and threats. Added new capabilities on the radar operation
-						system while working in an Agile environment. Led other interns within the team and coordinated
-						tasks to efficiently resolve multipe medium and high priority tasks to enhance the GUI display
-						of the Mission Application Software.
-					</p>
-					<br>
-					<br>
-					<p class="rightside" id="company">NASA</p>
-					<p class="rightside" id="job_descr">Worked on improving the efficiency of the National Airspace
-						System by
-						optimizing flight operations through analyzing and
-						extracting semi or unstructured information from flight documents (Operations Plans). Conducted
-						unsupervised learning experiments by clustering high dimensionality data using NLP methods
-						(spacy, tf-idf, UMAP, DBSCAN). Also assisted in evaluating a speech to text NLP model specific
-						to FAA terms for transcribing FAA webinar meetings
-
-					</p>
-
-					<p id="br_height3"> <br> </p>
-
-					<p class="rightside" id="company" id="shift">Stanford University</p>
-					<p class="rightside" id="job_descr">Evaluated the accuracy of a fast online linear algorithm in
-						Matlab and created input data of various distributions. Used Matlab’s CVX and Mosek ApS solver
-						to compare fast online linear algorithm effectiveness to an offline algorithm.</p>
-
-					<p id="br_height4"> <br> </p>
-
-					<p class="rightside" id="company" id="shift">San José State University</p>
-					<p class="rightside" id="job_descr">Researched the applications of AI with ensemble learning for
-						detecting malware and published the chapter “On Ensemble Learning” in the Springer textbook
-						“Malware Analysis using Artificial Intelligence and Deep Learning”. Processed 80 GB of raw
-						malware data, extracted opcode features using data pipeline, and trained various machine and
-						deep learning models including CNNs (1-D and 2-D), SVMs, MLPs, KNNs, and ANNs. Applied ensemble
-						methods of bagging, stacking, and boosting to complement previously mentioned models. Achieved
-						balanced accuracy of 88.16%, precision score of 93.84%, recall score of 93.37%, and F1 score of
-						93.13%.</p>
-				</div>
-
-
 			</div>
 		</div>
+		<div class="background"></div>
 	</div>
-	<div style="text-align: center; padding-bottom: 30px;">
-		<a href="#top">Back to top</a>
-	</div>
-
-
-
-
-
-
 
 </body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<div id="aboutme">
+	<p id="about_descr">
+		Allen is currently a student attending Northeastern University where he is studying computer science and
+		artificial intelligence. He is interested in the intersections between computer vision and robotics,
+		specifically autonomous vehicles.</p>
+
+	<script>
+		$(document).ready(function () {
+			$("a").on('click', function (event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 1000, function () {
+						window.location.hash = hash;
+					});
+				}
+			});
+		});
+	</script>
+
+	<a href="#experience">
+		<img class="arrow" src="images/arrow2.png">
+	</a>
+</div>
+
+
+
+<div id="experience">
+
+	<div id="experience_content">
+		<h3 class="center_text"> Experience</h3>
+		<div class="row">
+			<div class="column">
+				<p class="leftside" id="date">May - August 2023</p>
+				<p class="leftside" id="role"> Software Engineering Intern </p>
+				<p id="job_descr"> <br> </p>
+
+
+				<p class="leftside" id="date">September - December 2022</p>
+				<p class="leftside" id="role"> Software Developer Intern </p>
+
+
+				<p id="job_descr"> <br> </p>
+
+				<p class="leftside" id="date">June - August 2022</p>
+				<p class="leftside" id="role"> Software Engineering Intern </p>
+
+				<p id="br_height"> <br> </p>
+				<p id="br_height"> <br> </p>
+				<p id="br_height"> <br> </p>
+
+				<p class="leftside" id="date">January - May 2022</p>
+				<p class="leftside" id="role">Machine Learning and NLP Intern </p>
+				<p id="job_descr"> <br> </p>
+				<p id="job_descr"> <br> </p>
+				<p id="job_descr"> <br> </p>
+				<p id="job_descr"> <br> </p>
+				<p class="leftside" id="date">August - December 2020</p>
+				<p class="leftside" id="role">Research Intern</p>
+
+
+				<p id="br_height2"> <br> </p>
+				<p id="br_height"> <br> </p>
+
+
+				<p class="leftside" id="date">May - August 2020</p>
+				<p class="leftside" id="role">Research Intern</p>
+			</div>
+			<div class="column">
+				<hr class="vline" />
+			</div>
+			<div class="column">
+				<p class="rightside" id="company">Tesla Autopilot</p>
+				<p class="rightside" id="job_descr"> Incoming intern for the AI Tooling Team </p>
+
+				<p id="job_descr"> <br> </p>
+
+
+				<p class="rightside" id="company">Amazon</p>
+				<p class="rightside" id="job_descr">Alexa AI Team </p>
+
+
+				<p id="job_descr"> <br> </p>
+
+				<p class="rightside" id="company">Northrop Grumman</p>
+				<p class="rightside" id="job_descr"> Used C++ to improve the Sustainment and Modification of Radar
+					Sensors (SMORS)
+					system for detecting aerial objects and threats. Added new capabilities on the radar operation
+					system while working in an Agile environment. Led other interns within the team and coordinated
+					tasks to efficiently resolve multipe medium and high priority tasks to enhance the GUI display
+					of the Mission Application Software.
+				</p>
+				<br>
+				<br>
+				<p class="rightside" id="company">NASA</p>
+				<p class="rightside" id="job_descr">Worked on improving the efficiency of the National Airspace
+					System by
+					optimizing flight operations through analyzing and
+					extracting semi or unstructured information from flight documents (Operations Plans). Conducted
+					unsupervised learning experiments by clustering high dimensionality data using NLP methods
+					(spacy, tf-idf, UMAP, DBSCAN). Also assisted in evaluating a speech to text NLP model specific
+					to FAA terms for transcribing FAA webinar meetings
+
+				</p>
+
+				<p id="br_height3"> <br> </p>
+
+				<p class="rightside" id="company" id="shift">Stanford University</p>
+				<p class="rightside" id="job_descr">Evaluated the accuracy of a fast online linear algorithm in
+					Matlab and created input data of various distributions. Used Matlab’s CVX and Mosek ApS solver
+					to compare fast online linear algorithm effectiveness to an offline algorithm.</p>
+
+				<p id="br_height4"> <br> </p>
+
+				<p class="rightside" id="company" id="shift">San José State University</p>
+				<p class="rightside" id="job_descr">Researched the applications of AI with ensemble learning for
+					detecting malware and published the chapter “On Ensemble Learning” in the Springer textbook
+					“Malware Analysis using Artificial Intelligence and Deep Learning”. Processed 80 GB of raw
+					malware data, extracted opcode features using data pipeline, and trained various machine and
+					deep learning models including CNNs (1-D and 2-D), SVMs, MLPs, KNNs, and ANNs. Applied ensemble
+					methods of bagging, stacking, and boosting to complement previously mentioned models. Achieved
+					balanced accuracy of 88.16%, precision score of 93.84%, recall score of 93.37%, and F1 score of
+					93.13%.</p>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+<div style="text-align: center; padding-bottom: 30px;">
+	<a href="#top">Back to top</a>
+</div>
+
+
+
+
+
+
+
 
 
 </html>

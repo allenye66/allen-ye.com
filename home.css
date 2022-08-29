@@ -31,7 +31,7 @@ body{
     background: #FF0000;
 }
 .intro-text {
-    padding-top: 300px;
+    padding-top: 30%;
     text-align: left;
     margin: 80px 40px 0 40px;
 }
@@ -65,7 +65,7 @@ body{
 }
 
 .background {
-  background-image: url("images/snow.jpg");
+  background-image: url("images/snow2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

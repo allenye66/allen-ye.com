@@ -91,8 +91,7 @@ body{
 #aboutme{
     background-color: black;
     text-color: white;
-    height: 300px;
-    min-height: 300px;
+    
     padding: 0px;
     min-width: 800px;
 }
@@ -111,7 +110,7 @@ body{
 }
 
 .arrow {
-    width: 5%;
+    width: 4%;
     margin-left: 47%;
     -webkit-animation: bounce 2s infinite 2s;
     animation: bounce 2s infinite 2s;
@@ -161,9 +160,19 @@ body{
     display: flex;
 }
 
+
 .column {
     color: black;
     flex:10%;
+    padding: 20px;
+}
+
+.column2 {
+    margin-left: 50px;
+    border: 1px solid blue;
+    width: 50px;
+    color: black;
+    flex:1%;
     padding: 20px;
 }
 
@@ -256,4 +265,39 @@ body{
     font-size: 1em;
     line-height: 2.3em;
     font-size: 13px;
+}
+
+.logo_descr{
+}
+
+#tesla_logo{
+    width: 3%;
+    position: absolute;
+}
+
+
+#amazon_logo{
+    width: 5%;
+    margin-left: -.5%;
+    position: absolute;
+}
+#ng_logo{
+    margin-top: -.5%;
+    width: 3%;
+    position: absolute;
+}
+
+#nasa_logo{
+    width: 5.8%;
+    margin-left: -1.5%;
+    position: absolute;
+}
+#stanford_logo{
+    width: 3%;
+    margin-left: -.6%;
+    position: absolute;
+}
+#sjsu_logo{
+    width: 3%;
+    position: absolute;
 }

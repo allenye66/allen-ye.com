@@ -116,7 +116,7 @@ body{
     animation: bounce 2s infinite 2s;
     position: relative;
     overflow: auto;
-    margin-top: -1.1%;
+    margin-top: .5%;
 }
 
 @keyframes bounce {

@@ -1,8 +1,6 @@
-
-
-*{ 
-  /*border: 1px solid red;*/
-  font-family: 'Raleway', sans-serif;
+* {
+    /*border: 1px solid red;*/
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -12,24 +10,27 @@ html {
 
 }
 
-#wrapper{
-    min-width:1792px;
-    
+#wrapper {
+    min-width: 1792px;
+
 }
-body{
+
+body {
     width: 100%;
-    margin:0px;
+    margin: 0px;
     min-width: 1210px;
 
 }
+
 ::-webkit-scrollbar {
-    width: 0px;  
-    background: transparent;  
+    width: 0px;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
 .intro-text {
     padding-top: 30%;
     text-align: left;
@@ -51,54 +52,55 @@ body{
 }
 
 .intro-rectangle {
-  float: left;
-  margin: 10px 0 0 -40px;
-  border-top: 20px solid #555;
-  border-right: 20px solid transparent;
-  height: 0;
-  width: 450px;
+    float: left;
+    margin: 10px 0 0 -40px;
+    border-top: 20px solid #555;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 450px;
 }
 
 .intro-img {
-  height: 50px;
-  margin-right: 10px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .background {
-  background-image: url("../images/snow2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 950px;
-  width: 67%;
+    background-image: url("../images/snow2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    width: 67%;
 }
 
 .background-overlay {
-  height: 950px;
-  width: 33%;
-  padding-top: 30px;
+    height: 950px;
+    width: 33%;
+    padding-top: 30px;
 }
 
 @keyframes fadein {
-  0% {
-    opacity: 0.0;
-  }
-  100% {
-    opacity: 1.0;
-  }
+    0% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
 }
 
-#aboutme{
+#aboutme {
     background-color: black;
     text-color: white;
-    
+
     padding: 0px;
     min-width: 800px;
 }
 
-#about_descr{
+#about_descr {
     color: white;
-    margin-top:-0.05%;
+    margin-top: -0.05%;
     text-align: center;
     font-weight: 200;
     font-size: 1.5em;
@@ -120,6 +122,7 @@ body{
 }
 
 @keyframes bounce {
+
     0%,
     100%,
     20%,
@@ -129,11 +132,13 @@ body{
         -ms-transform: translateY(0);
         transform: translateY(0);
     }
+
     40% {
         -webkit-transform: translateY(-10px);
         -ms-transform: translateY(-10px);
         transform: translateY(-10px);
     }
+
     60% {
         -webkit-transform: translateY(-5px);
         -ms-transform: translateY(-5px);
@@ -163,7 +168,7 @@ body{
 
 .column {
     color: black;
-    flex:10%;
+    flex: 10%;
     padding: 20px;
 }
 
@@ -172,11 +177,11 @@ body{
     border: 1px solid blue;
     width: 50px;
     color: black;
-    flex:1%;
+    flex: 1%;
     padding: 20px;
 }
 
-.center_text{
+.center_text {
     padding-top: 6%;
     text-align: center;
     color: #001418;
@@ -187,13 +192,12 @@ body{
     margin-left: -1%;
 }
 
-.vline
-{   
+.vline {
     height: 105%;
     width: 1px;
-    border:none;
-    border-right:solid 0.5px black;
-    z-index:10;
+    border: none;
+    border-right: solid 0.5px black;
+    z-index: 10;
     padding-bottom: 5%;
 }
 
@@ -211,93 +215,99 @@ body{
     text-align: right;
 }
 
-.rightside{
+.rightside {
     display: inline-block;
     vertical-align: top;
     width: 520px;
-   
+
 }
 
 
-#date{
+#date {
     font-size: 1.3em;
     font-weight: 600;
 }
 
-#company{
+#company {
     font-size: 1.3em;
     font-weight: 600;
 }
 
-#role{
+#role {
     font-size: 1em;
     line-height: 1.8em;
     font-size: 13px;
 
 }
 
-#job_descr{
+#job_descr {
     font-size: 1em;
     line-height: 1.8em;
     font-size: 13px;
 }
 
 
-#br_height{
+#br_height {
     font-size: 1em;
     line-height: 1.6em;
     font-size: 13px;
 }
 
-#br_height2{
+#br_height2 {
     font-size: 1em;
     line-height: 3.2em;
     font-size: 13px;
 }
 
-#br_height3{
+#br_height3 {
     font-size: 1em;
     line-height: 1.2em;
     font-size: 13px;
 }
 
-#br_height4{
+#br_height4 {
     font-size: 1em;
     line-height: 2.3em;
     font-size: 13px;
 }
 
-.logo_descr{
+#small_diff {
+    font-size: 0.0em;
 }
 
-#tesla_logo{
+.logo_descr {}
+
+#tesla_logo {
     width: 3%;
     position: absolute;
 }
 
 
-#amazon_logo{
+#amazon_logo {
     width: 5%;
     margin-left: -.5%;
     position: absolute;
 }
-#ng_logo{
+
+#ng_logo {
     margin-top: -.5%;
     width: 3%;
     position: absolute;
 }
 
-#nasa_logo{
+#nasa_logo {
     width: 5.8%;
     margin-left: -1.5%;
     position: absolute;
 }
-#stanford_logo{
+
+#stanford_logo {
     width: 3%;
     margin-left: -.6%;
     position: absolute;
 }
-#sjsu_logo{
+
+#sjsu_logo {
     width: 3%;
     position: absolute;
 }
